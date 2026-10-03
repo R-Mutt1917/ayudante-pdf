@@ -1,0 +1,39 @@
+# Dependencias en cualquier nivel
+node_modules/
+*/node_modules/
+
+# Next.js y compilación
+.next/
+out/
+build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Variables de entorno
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# Sistema y herramientas
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vercel y TypeScript
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Backend / Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
